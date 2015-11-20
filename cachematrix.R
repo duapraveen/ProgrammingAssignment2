@@ -33,6 +33,7 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 
+
 ## This function cacheSolve allows user retrieve the inverse matrix of a matrix created by makeCacheMatrix
 ## Until the content of the matrix is changed, repeated calls to retrieve the inverse matrix do not incur 
 ## any additional computational penalty as the cached inverse matrix is returned
@@ -53,3 +54,4 @@ cacheSolve <- function(x, ...) {
       }
       inv
 }
+
